@@ -1,2 +1,2 @@
 # Growtopia-newest-opcodes
-Current opcodes: v3.67 / timetaken 40087 ms
+Current opcodes, offsets and signatures: v3.67
