@@ -12,3 +12,14 @@ NetAvatar+0x1FA4 = m_bShouldDistort
 NetAvatar+0x1BD0 = m_iAvatarState
 NetAvatar+1AFA= m_bInWater
 NetAvatar+1C54= m_iMouthAnimation
+NetAvatar+0x198 = m_iEffectState
+
+HandleGravity - 40 53 55 56 57 41 56 48 81 EC ? ? ? ? 48 C7 44 24 ? ? ? ? ? 0F 29 74 24 ?
+HandleJump - 40 53 48 83 EC ? 80 B9 ? ? ? ? ? 48 8B D9 0F 29 74 24 ? 0F 57 F6
+HandleLocalSkinAndPunching (probably, included references to skin, punching and checked for rayman tool) - 48 8B C4 55 56 57 41 56 41 57 48 81 EC ? ? ? ? 48 C7 40 ? ? ? ? ? 48 89 58 ? 0F 29 70 ? 0F 29 78 ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 44 24 ? 48 8B DA
+SendPacket - 40 53 48 83 EC ? 80 3A ? 49 8B C0
+SendPacketRaw - 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 41 56 48 83 EC ? 49 8B F1
+Function that checks for GUID/Machine info and adds registries - 40 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 ? ? ? ? B8 ? ? ? ? E8 ? ? ? ? 48 2B E0 48 C7 44 24 ? ? ? ? ? 48 89 9C 24 ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 85 ? ? ? ? 4C 8B FA
+Function that checks for changed memory/memory cheats - 40 53 48 83 EC ? 48 8B D9 E8 ? ? ? ? 48 8B CB E8 ? ? ? ? 48 8B 8B ? ? ? ?
+Shit that bans you - 75 ? 85 C9 0F 85 ? ? ? ? C7 05 ? ? ? ? ? ? ? ?
+HandleLocalNetAvatar - 48 8B C4 55 53 56 57 41 56 41 57 48 8D 68 ?
