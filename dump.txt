@@ -6,3 +6,9 @@ module+497D17 - modfly
 module+487E97  - noclip
 module+438EC1 - growz
 module+32E6E6 - punch distance (dont increase it too much u'll get autobanned)
+
+NetAvatar+0x1C48 = m_flRightArmRotation
+NetAvatar+0x1FA4 = m_bShouldDistort
+NetAvatar+0x1BD0 = m_iAvatarState
+NetAvatar+1AFA= m_bInWater
+NetAvatar+1C54= m_iMouthAnimation
