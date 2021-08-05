@@ -25,3 +25,18 @@ Function that checks for GUID/Machine info and adds registries - 40 55 56 57 41 
 Function that checks for changed memory/memory cheats - 40 53 48 83 EC ? 48 8B D9 E8 ? ? ? ? 48 8B CB E8 ? ? ? ? 48 8B 8B ? ? ? ?
 Shit that bans you - 75 ? 85 C9 0F 85 ? ? ? ? C7 05 ? ? ? ? ? ? ? ?
 HandleLocalNetAvatar - 48 8B C4 55 53 56 57 41 56 41 57 48 8D 68 ?
+ // stretch sideways
+                        // Growtopia.exe+12BEA6 - 74 16                 - je Growtopia.exe+12BEBE
+                        // 74 ? c7 87 ? ? ? ? ? ? ? ? c7 87 ? ? ? ? ? ? ? ? eb ? 8b c1
+
+                        // funhouse mirror stretch
+                        // Growtopia.exe+12BE70 - 75 27                 - jne Growtopia.exe+12BE99
+                        // 75 ? 48 8b ce e8 ? ? ? ? f6 40
+
+                        // smallen player
+                        // Growtopia.exe+12BEC5 - 74 16                 - je Growtopia.exe+12BEDD
+                        // 74 ? c7 87 ? ? ? ? ? ? ? ? c7 87 ? ? ? ? ? ? ? ? eb ? c1 e9
+
+                        // make player larger
+                        // Growtopia.exe+12BEE3 - 74 16                 - je Growtopia.exe+12BEFB
+                        // 74 ? c7 87 ? ? ? ? ? ? ? ? c7 87 ? ? ? ? ? ? ? ? eb ? b2
